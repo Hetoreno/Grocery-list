@@ -1,0 +1,38 @@
+button{
+    cursor: pointer;
+}
+
+body{
+    background:gray;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear{
+    width:10%;
+    height:7vh;
+}
+
+li{
+    list-style: none;
+}
+
+.todo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
