@@ -10,6 +10,8 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+
 .container{
     display:flex;
     align-items: center;
@@ -29,9 +31,24 @@ header{
 
 li{
     list-style: none;
+    background: white;
+}
+
+.list{
+    min-width:30%;
 }
 
 .todo{
+    background:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo li{
+    flex:1;
+    text-align: center;
+}
+.ul-cont{
     display:flex;
     align-items: center;
     justify-content: center;
