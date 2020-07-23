@@ -2,7 +2,6 @@ const value = document.querySelector(".value");
 const submit = document.querySelector(".submit");
 const clear = document.querySelector(".clear");
 const list = document.querySelector(".list");
-const all = document.querySelector(".ul-cont");
 
 submit.addEventListener("click",addingItems);
 list.addEventListener("click",deleteOne);
@@ -23,8 +22,6 @@ function addingItems(event){
     deleteButton.classList.add("dele-button");
     deleteButton.innerText = "Delete";
     itemCont.appendChild(deleteButton);
-
-    
 }
 
 //abilty to delete one item from list
@@ -41,9 +38,7 @@ function deleteOne(event){
 //abilty to delete entire list
 function deleteAll(e){
 
-    while (all.children.length>0){
-        all.removeChild(all.children[0]);
-        clearStorage();
+    while (list.children.length>0){
+        list.removeChild(list.children[0]);
     }
 }
-
